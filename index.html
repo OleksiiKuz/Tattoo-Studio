@@ -9,27 +9,27 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header" >
     <div class="container">
       <div class="header__wrapper">
-        <div class="header__logo">Tattoo.lounge</div>
+        <div class="header__logo"> <a href="#promo">Tattoo.lounge</a></div>
         <nav class="header__nav">
           <ul class="header__navigation">
-            <li class="header__navigation-item"><a href="">Работы</a></li>
-            <li class="header__navigation-item"><a href="">Студия</a></li>
-            <li class="header__navigation-item"><a href="">Мастера</a></li>
-            <li class="header__navigation-item"><a href="">Вопросы</a></li>
-            <li class="header__navigation-item"><a href="">Контакты</a></li>
+            <li class="header__navigation-item"><a href="#works">Работы</a></li>
+            <li class="header__navigation-item"><a href="#slider">Студия</a></li>
+            <li class="header__navigation-item"><a href="#masters">Мастера</a></li>
+            <li class="header__navigation-item"><a href="#faq">Вопросы</a></li>
+            <li class="header__navigation-item"><a href="#contact">Контакты</a></li>
           </ul>
         </nav>
 
         <nav>
         <ul class="header__navigation--mobile">
-              <li class="header__navigation-item"><a href="">Работы</a></li>
-              <li class="header__navigation-item"><a href="">Студия</a></li>
-              <li class="header__navigation-item"><a href="">Мастера</a></li>
-              <li class="header__navigation-item"><a href="">Вопросы</a></li>
-              <li class="header__navigation-item"><a href="">Контакты</a></li>
+              <li class="header__navigation-item--mobile"><a href="#works">Работы</a></li>
+              <li class="header__navigation-item--mobile"><a href="#slider">Студия</a></li>
+              <li class="header__navigation-item--mobile"><a href="#masters">Мастера</a></li>
+              <li class="header__navigation-item--mobile"><a href="#faq">Вопросы</a></li>
+              <li class="header__navigation-item--mobile"><a href="#contact">Контакты</a></li>
         </ul>
         </nav>
 
@@ -46,10 +46,10 @@
     </div>
   </header>
 
-  <section class="promo">
+  <section class="promo" id="promo" name="promo">
     <div class="container">
 
-      <div class="promo__adaptive-img"><img src="./img/tattoo__adaptive.webp" alt=""></div>
+      <div class="promo__adaptive-img"><img src="./img/tattoo__adaptive.png" alt=""></div>
       <div class="promo__wrapper">
         <h1 class="promo__title">
           Лучшая тату студия <br>
@@ -61,7 +61,7 @@
           Запишись на прием и убедись! :)
         </div>
         <div class="promo__img">
-          <img src="./img/promo__img.webp" alt="promo">
+          <img src="./img/promo__img.png" alt="promo">
         </div>
         
       </div>
@@ -75,49 +75,49 @@
     
   </section>
 
-  <section class="works">
+  <section class="works" id="works" name="works">
     <div class="container">
       <h2 class="section__title">Наши лучшие работы</h2>
       
       <div class="works__wrapper">
 
         <div class="works__item">
-          <a href="./img/1.webp" data-fancybox="gallery"><img src="./img/1.webp" alt="Tattoo"></a>
+          <a href="./img/1.jpg" data-fancybox="gallery"><img src="./img/1.jpg" alt="Tattoo"></a>
         </div>
 
         <div class="works__item">
-          <a href="./img/2.webp" data-fancybox="gallery"><img src="./img/2.webp" alt="Tattoo"></a>
+          <a href="./img/2.jpg" data-fancybox="gallery"><img src="./img/2.jpg" alt="Tattoo"></a>
         </div>
 
         <div class="works__item">
-          <a href="./img/3.webp" data-fancybox="gallery"><img src="./img/3.webp" alt="Tattoo"></a>
+          <a href="./img/3.jpg" data-fancybox="gallery"><img src="./img/3.jpg" alt="Tattoo"></a>
         </div>
 
         <div class="works__item">
-          <a href="./img/4.webp" data-fancybox="gallery"><img src="./img/4.webp" alt="Tattoo"></a>
+          <a href="./img/4.jpg" data-fancybox="gallery"><img src="./img/4.jpg" alt="Tattoo"></a>
         </div>
 
         <div class="works__item">
-          <a href="./img/5.webp" data-fancybox="gallery"><img src="./img/5.webp" alt="Tattoo"></a>
+          <a href="./img/5.jpg" data-fancybox="gallery"><img src="./img/5.jpg" alt="Tattoo"></a>
         </div>
 
         <div class="works__item">
-          <a href="./img/6.webp" data-fancybox="gallery"><img src="./img/6.webp"  alt="Tattoo"></a>
+          <a href="./img/6.jpg" data-fancybox="gallery"><img src="./img/6.jpg"  alt="Tattoo"></a>
         </div>
 
         <div class="works__item">
-          <a href="./img/7.webp" data-fancybox="gallery"><img src="./img/7.webp" alt="Tattoo"></a>
+          <a href="./img/7.jpg" data-fancybox="gallery"><img src="./img/7.jpg" alt="Tattoo"></a>
         </div>
 
         <div class="works__item">
-          <a href="./img/8.webp"  data-fancybox="gallery"><img src="./img/8.webp" alt="Tattoo"></a>
+          <a href="./img/8.jpg"  data-fancybox="gallery"><img src="./img/8.jpg" alt="Tattoo"></a>
         </div>
 
       </div>
     </div>
   </section>
 
-  <section class="order">
+  <section class="order" id="order" name="order">
     <div class="container">
       <h2 class="section__title section__title--white">Хочешь татуировку?</h2>
       <div class="section__subtitle">Дерзай!</div>
@@ -132,12 +132,12 @@
         условиями по обработке персональных данных</span>
       </form>
       <div class="order__man">
-        <img src="./img/order_man.webp" alt="">
+        <img src="./img/order_man.png" alt="">
       </div>
     </div>
   </section>
 
-  <section class="slider">
+  <section class="slider" id="slider" name="slider">
 
     <div class="container">
 
@@ -147,15 +147,15 @@
       <div class="slider__box">
 
         <div class="slider__item">
-          <img src="./img/slide1.webp" alt="" class="slider__item-color" >
+          <img src="./img/slide1.jpg" alt="" class="slider__item-color" >
         </div>
         
         <div class="slider__item">
-          <img src="./img/slide2.webp" alt="" class="slider__item-color" >
+          <img src="./img/slide2.jpg" alt="" class="slider__item-color" >
         </div>
         
         <div class="slider__item">
-          <img src="./img/slide3.webp" alt="" class="slider__item-color">
+          <img src="./img/slide3.jpg" alt="" class="slider__item-color">
         </div>
         
         </div>
@@ -164,12 +164,12 @@
       
   </section>
 
-  <section class="masters">
+  <section class="masters" id="masters" name="masters">
     <div class="container">
       <h2 class="section__title">Наши мастера</h2>
       <div class="masters__wrap">
         <div class="master__photo">
-          <img src="./img/master1.webp" alt="">
+          <img src="./img/master1.jpg" alt="">
         </div>
         <div class="master__description">
           <div class="master__title">Илья Гусев</div>
@@ -180,7 +180,7 @@
             <li class="stats__item">Любимый стиль: реализм</li>
           </ul>
       
-          <button class="button button--masters">
+          <button class="button button--masters-1">
             Записаться
           </button>
         </div>
@@ -188,7 +188,7 @@
 
       <div class="masters__wrap">
         <div class="master__photo--2">
-          <img src="./img/master2.webp" alt="">
+          <img src="./img/master2.jpg" alt="">
         </div>
         <div class="master__description">
           <div class="master__title">Марк Степанов</div>
@@ -199,7 +199,7 @@
             <li class="stats__item">Любимый стиль: минимализм</li>
           </ul>
       
-          <button class="button button--masters">
+          <button class="button button--masters-2">
             Записаться
           </button>
         </div>
@@ -207,7 +207,7 @@
 
       <div class="masters__wrap">
         <div class="master__photo">
-          <img src="./img/master3.webp" alt="">
+          <img src="./img/master3.jpg" alt="">
         </div>
         <div class="master__description">
           <div class="master__title">Сергей Казаков</div>
@@ -218,7 +218,7 @@
             <li class="stats__item">Любимый стиль: графика</li>
           </ul>
       
-          <button class="button button--masters">
+          <button class="button button--masters-3">
             Записаться
           </button>
         </div>
@@ -227,7 +227,7 @@
     
   </section>
 
-  <section class="faq">
+  <section class="faq" id="faq" name="faq">
     <div class="container">
       <h2 class="section__title">Ответы на вопросы</h2>
       <div class="faq__wrapper">
@@ -295,7 +295,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section class="contact" id="contact" name="contact">
     <div class="container">
       <h2 class="section__title section__title--white">Связь с нами</h2>
 
@@ -341,6 +341,71 @@
       
     </div>
   </section>
+
+  <div class="modal modal-main">
+    <div class="modal__dialog">
+      <button class="modal__dialog-close">&times;</button>
+      <form action="#" class="form order__form modal__form">
+        <div class="form__title form__title--modal">Перезвоним за 5 минут!</div>
+        <div class="form__subtitle form__subtitle--modal"> Оставьте свои данные и <span>Наши люди</span> свяжутся с Вами</div>
+        <input type="text" placeholder="Ваше имя" class="order__input modal__input">
+        <input type="text" placeholder="Ваш телефон" class="order__input modal__input">
+        <button class="button button--order">Отправить</button>
+        <span class="button__descr">Нажимая кнопку отправить вы соглашаетесь с
+          условиями по обработке персональных данных</span>
+      </form>
+    </div>
+  </div>
+
+  
+
+      <div class="modal modal--1">
+        <div class="modal__dialog">
+          <button class="modal__dialog-close">&times;</button>
+          <form action="#" class="form order__form modal__form">
+            <div class="form__title form__title--modal">Запись к Илле Гусеву</div>
+            <div class="form__subtitle form__subtitle--modal"> Оставьте свои данные и <span>Наши люди</span> свяжутся с Вами
+            </div>
+            <input type="text" placeholder="Ваше имя" class="order__input modal__input">
+            <input type="text" placeholder="Ваш телефон" class="order__input modal__input">
+            <button class="button button--order">Отправить</button>
+            <span class="button__descr">Нажимая кнопку отправить вы соглашаетесь с
+              условиями по обработке персональных данных</span>
+          </form>
+        </div>
+      </div>
+
+        <div class="modal  modal--2">
+          <div class="modal__dialog">
+            <button class="modal__dialog-close">&times;</button>
+            <form action="#" class="form order__form modal__form">
+              <div class="form__title form__title--modal">Запись к Марку Степанову</div>
+              <div class="form__subtitle form__subtitle--modal"> Оставьте свои данные и <span>Наши люди</span> свяжутся с Вами
+              </div>
+              <input type="text" placeholder="Ваше имя" class="order__input modal__input">
+              <input type="text" placeholder="Ваш телефон" class="order__input modal__input">
+              <button class="button button--order">Отправить</button>
+              <span class="button__descr">Нажимая кнопку отправить вы соглашаетесь с
+                условиями по обработке персональных данных</span>
+            </form>
+          </div>
+        </div>
+
+        <div class="modal  modal--3">
+          <div class="modal__dialog">
+            <button class="modal__dialog-close">&times;</button>
+            <form action="#" class="form order__form modal__form">
+              <div class="form__title form__title--modal">Запись к Сергею Казакову</div>
+              <div class="form__subtitle form__subtitle--modal"> Оставьте свои данные и <span>Наши люди</span> свяжутся с Вами
+              </div>
+              <input type="text" placeholder="Ваше имя" class="order__input modal__input">
+              <input type="text" placeholder="Ваш телефон" class="order__input modal__input">
+              <button class="button button--order">Отправить</button>
+              <span class="button__descr">Нажимая кнопку отправить вы соглашаетесь с
+                условиями по обработке персональных данных</span>
+            </form>
+          </div>
+        </div>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
