@@ -15,9 +15,17 @@ $('.header__burger').on('click', function (e) {
 
 $('.header__burger').on('click', function (e) {
   e.preventDefault;
+  $('.header__navigation--mobile').slideToggle();
+
+});
+
+$('.header__burger').on('click', function (e) {
+  e.preventDefault;
   $('.header__navigation--mobile').toggleClass('header__navigation--mobile-active')
 
 });
+
+
 
 $('.button--promo').on('click', function (e) {
   event.preventDefault();
