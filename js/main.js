@@ -59,18 +59,6 @@ $('.modal__dialog-close').on('click', function (e) {
 });
 
 
-
-// $(document).ready(function () {
-//   $('a[href^="#"}').click(function () {
-//     event.preventDefault();
-//     var target = $(this).attr('href');
-//     $('html', 'body').animate({
-//       scrollTop: $(target).offset().top
-//     }, 500);
-//   });
-// });
-
-
 $('a[href*="#"]').on('click', function (e) {
   e.preventDefault();
 
@@ -79,4 +67,24 @@ $('a[href*="#"]').on('click', function (e) {
   }, 1000, 'linear');
 });
 
+
+$(function () {
+  $('.faq-title').click(function (j) {
+
+    var dropDown = $(this).closest('.faq-item').find('.faq-text');
+    $(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
+
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
+    } else {
+      $(this).closest('.acc').find('.faq-title.active').removeClass('active');
+      $(this).addClass('active');
+    }
+
+    dropDown.stop(false, true).slideToggle();
+    j.preventDefault();
+  });
+
+
+});
 
